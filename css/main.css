@@ -1,0 +1,289 @@
+.background{
+	position: relative;
+	width: 100%;
+	height: 530px;
+	margin-top: -20px;
+	background-image: url("background.png");
+	background-repeat: repeat;
+	background-position: center top;
+	background-color:rgb(0,0,0);
+	overflow-x: hidden;
+	overflow-y: hidden;
+	margin-bottom: 0px;
+}
+
+.logo {
+	text-align:center;
+	
+	
+}
+
+.logo .title {
+	font-size: 70px;
+	font-weight: 700;
+	color: aliceblue;
+	line-height: 90px;
+	font-family: 'Pacifico', cursive;
+}
+
+.vertical-align {
+	top:50%;
+	position: relative;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+		
+}
+
+.background-image{
+	position: absolute;
+	top:0;
+	height: 500px;
+	width: 100%;
+	z-index: -1;
+	
+}
+
+.sub-title {
+	font-size: 20px;
+	color: azure;
+	font-family: Open Sans;
+	font-weight: 200;
+	position: relative;
+	left: 100px;
+}
+
+/* Tabs */
+
+.tabs li {
+	display: inline-block;
+	margin-right: 20px;
+	font-size: 13px;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-family: Open Sans;
+	color: #ccc;
+	
+}
+
+.tabs {
+	float: right;
+	position: relative;
+	bottom :90px;
+	right:100px;
+	
+}
+
+.tabs a {
+	color: #ccc;
+	text-decoration: none
+}
+
+.tabs a:hover {
+	text-decoration: none;
+	font-weight: 700;
+	color: white;
+}
+
+.wrapper{
+	min-height: 200px;
+	width: 100%;
+	background-color: #f5f5f5;
+	overflow: hidden;
+	padding:120px 60px 30px 60px;
+	
+}
+.all-heading {
+	font-size: 40px;
+	font-family: 'Open Sans' ;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: normal;
+	
+}
+
+hr {
+	width:100px;
+}
+
+#heading-two {
+	margin-top: 100px;
+	
+}
+
+.content {
+	font-family: 'Open Sans';
+	font-size: 23px;
+	padding-left: 70px;
+	padding-right: 70px;
+}
+
+
+
+.scroll-box img {
+	height: 400px;
+	width: auto;
+}
+
+.scroll-box li {
+	display: inline-block;
+	vertical-align: middle;
+}
+	
+.scroll-box {
+	height: 470px;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	width: auto;
+	white-space: nowrap;
+}
+
+#googleMap {
+	float: right;
+	position: relative;
+	right:100px;
+	top: 60px;
+}
+
+#contact-us {
+	float:left;
+	position: relative;
+	top:40px;
+}
+
+form {
+	width: 40%;
+	height: 550px;
+		
+}
+
+
+input[type=text] , select {
+	width: 100%;
+	display: inline-block;
+	border-radius: 4px;
+	border: 1px solid #ccc;
+	height: 40px;
+}
+	
+	
+.form-space {
+	margin-top: 30px;
+}
+
+form label {
+	font-family:'Open Sans';
+	font-weight: 400;
+}
+
+input[type=submit]{
+	margin-top: 30px;
+	font-family: 'Open Sans';
+	font-weight: 700;
+	padding: 13px;
+	width:30%;
+	font-size:16px;
+	border-radius: 5px;
+	background-color: rgb(77, 165, 255);
+	color: white;
+	text-transform: uppercase;
+	transition: 0.5s;
+		
+	}
+
+input[type=submit]:hover {
+	background-color: #ff6666;
+}
+
+.wrapper-footer{
+	min-height: 300px;
+	width: 100%;
+	background-color: #f5f5f5;
+	overflow: hidden;
+	padding:120px 60px 5px 60px;
+	background-image: url(background.png);
+}
+
+footer {
+	color: aliceblue;
+	font-size: 60px;
+	text-align: center;
+}
+
+footer i:nth-child(1){
+	position:relative;
+	bottom: 80px;
+}
+
+#facebook {
+	font-size: 30px;
+	position: relative;
+	bottom: 90px;
+	text-decoration: none;
+}
+
+footer a {
+	text-decoration: none;
+	color: aliceblue;
+}
+
+.logo1 {
+	font-size: 25px;
+	position: relative;
+	bottom: 60px;
+	font-family: 'Pacifico', cursive;
+}
+
+footer p {
+	font-size: 12px;
+	position: relative;
+	bottom: 80px;
+	font-family: 'Open Sans';
+	font-weight: 100;
+	color: aliceblue;
+}
+.wrapper-product{
+	min-height: 200px;
+	width: 100%;
+	background-color: #262626;
+	overflow: hidden;
+	padding:60px 0px 0px 0px;
+	
+} 
+
+.all-heading-product {
+	font-size: 40px;
+	font-family: 'Open Sans' ;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: normal;
+	color: white;
+	
+}
+
+nav .navbar-nav {
+	float: right;
+	position: relative;
+	right: 100px;
+	
+}
+
+nav .navbar-nav li {
+	margin-right: 15px;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+nav .navbar-brand {
+	font-family: 'Pacifico', cursive;
+	color: white;
+	
+}
+
+nav {
+	position: fixed;
+	display: none;
+}
+
+
+
